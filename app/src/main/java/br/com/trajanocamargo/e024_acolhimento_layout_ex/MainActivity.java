@@ -14,7 +14,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void minhFuncao(View view){
+    public void minhFuncao(View view) {
+        Log.d("MainActivity", " - Click!");
+    }
+
+    public void outraFuncao(View view) {
         Log.d("MainActivity", " - Click!");
     }
 }
+
