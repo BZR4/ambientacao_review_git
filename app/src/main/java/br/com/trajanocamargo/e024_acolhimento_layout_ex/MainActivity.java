@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void minhFuncao(View view){
-        Log.d("MainActivity", " - Click");
+        Log.d("MainActivity", " - Click!");
     }
 }
